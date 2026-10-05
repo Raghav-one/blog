@@ -13,20 +13,20 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-of
 .identity{font-size:24px;font-weight:700;letter-spacing:-.6px;text-decoration:none}
 .identity span{font-weight:400}
 .archive-link{font-size:15px;text-decoration:none;color:var(--muted)}
-.article{max-width:892px;margin:auto;padding:30px 36px 45px}
+.article{max-width:812px;margin:auto;padding:30px 36px 45px}
 .post-category{font-size:12px;letter-spacing:1.1px;color:var(--accent);font-weight:650}
-.post-header h1{font-size:42px;letter-spacing:-1px;line-height:1.17;margin:12px 0 16px;font-weight:800}
-.subtitle{font-size:22px;line-height:1.6;color:var(--muted);margin:0}
+.post-header h1{font-size:34px;letter-spacing:-.8px;line-height:1.17;margin:12px 0 16px;font-weight:800}
+.subtitle{font-size:18px;line-height:1.5;color:var(--muted);margin:0}
 .byline{display:flex;align-items:center;gap:11px;margin:20px 0 23px;padding-bottom:19px;border-bottom:1px solid var(--line);font-size:13px}
 .author-mark{display:grid;place-items:center;width:34px;height:34px;background:var(--soft);border:1px solid var(--line);border-radius:50%;font-family:Georgia,serif;font-size:19px}
 .byline strong{display:block;font-size:14px;font-weight:650}
 .byline div>span{display:block;color:var(--muted);margin-top:2px}
-.prose{font-size:21px;line-height:1.75;letter-spacing:-.12px}
-.prose p{margin:0 0 28px}
+.prose{font-size:16px;line-height:1.5;letter-spacing:0}
+.prose p{margin:0 0 20px}
 .prose a{font-weight:500}
-.prose h2{font-size:34px;line-height:1.3;letter-spacing:-.7px;margin:0 0 24px;font-weight:750}
+.prose h2{font-size:24px;line-height:1.3;letter-spacing:-.4px;margin:0 0 20px;font-weight:750}
 .prose h2>span{display:block;font-size:14px;line-height:1.5;color:var(--muted);font-weight:400;letter-spacing:0;margin-top:6px}
-.prose h3{font-size:27px;line-height:1.4;margin:36px 0 21px;font-weight:700;letter-spacing:-.3px}
+.prose h3{font-size:20px;line-height:1.4;margin:28px 0 16px;font-weight:700;letter-spacing:-.3px}
 .contents{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:23px 0;padding:11px 0;font-size:15px}
 .contents summary{cursor:pointer;font-weight:600}
 .contents summary>span{float:right;color:var(--muted);font-size:13px;font-weight:400}
@@ -69,12 +69,12 @@ figcaption a{font-weight:400!important}
 @media(max-width:750px){.site-header{margin:0 20px;padding:0;height:61px}
 .identity{font-size:22px}
 .article{padding:23px 22px 27px}
-.post-header h1{font-size:34px;letter-spacing:-.8px}
-.subtitle{font-size:19px}
+.post-header h1{font-size:28px;letter-spacing:-.6px}
+.subtitle{font-size:17px}
 .byline{margin:16px 0 19px;padding-bottom:16px}
-.prose{font-size:20px;line-height:1.75;letter-spacing:0}
-.prose h2{font-size:28px;margin-top:0;margin-bottom:21px}
-.prose h3{font-size:23px}
+.prose{font-size:16px;line-height:1.5;letter-spacing:0}
+.prose h2{font-size:23px;margin-top:0;margin-bottom:18px}
+.prose h3{font-size:20px}
 .timeline-grid{grid-template-columns:repeat(2,1fr);gap:13px 20px}
 .timeline-grid div:last-child{grid-column:auto}
 .timeline-grid strong{font-size:16px}
@@ -102,7 +102,7 @@ figcaption{font-size:13px}
 
 
 /* Article rhythm: readable measure, visible emphasis, and distinct era boundaries. */
-.prose > section { margin-top: 52px; padding-top: 32px; border-top: 1px solid var(--line); }
+.prose > section { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); }
 
 .prose p strong { font-weight: 750; color: #201d1a; }
 
@@ -112,13 +112,13 @@ figcaption{font-size:13px}
 
 .prose a strong { color: inherit; }
 
-.prose > p:first-child { font-size: 22px; line-height: 1.75; }
+.prose > p:first-child { font-size: 16px; line-height: 1.5; }
 
 @media (max-width: 750px) {
-  .prose > section { margin-top: 40px; padding-top: 25px; }
+  .prose > section { margin-top: 32px; padding-top: 22px; }
 
-  .prose > p:first-child { font-size: 21px; line-height: 1.75; }
+  .prose > p:first-child { font-size: 16px; line-height: 1.5; }
 
-  .prose p { margin-bottom: 25px; }
+  .prose p { margin-bottom: 20px; }
 
 }

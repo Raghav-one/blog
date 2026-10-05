@@ -15,3 +15,5 @@ Deployment: GitHub Pages from the `main` branch, repository root. Commit and pus
 Use the article layout of Sebastian Raschka’s https://magazine.sebastianraschka.com/p/classifier-history-and-jev as a formatting reference: compact title and byline, centered reading column, numbered sections, readable body text, inline citations, and captioned figures in the narrative. Keep personal ownership under Raghav’s name. Avoid oversized heroes and blue branding. The first post prioritizes historical chronology, people, milestones, setbacks, and context; technical mechanisms support the history.
 
 Use technology names for headings and explain mechanisms with enough depth to connect the historical milestones. Highlight key technical terms and causal distinctions using selective bold and italic emphasis; do not compress each era into a few summary statements.
+
+Article typography follows the density of https://www.danielscrivner.com/situational-awareness-essays-by-leopold-aschenbrenner/: 16px body text, 24px line height, 20px paragraph spacing, and proportionally smaller technology headings. Preserve the full text and its emphasis.
